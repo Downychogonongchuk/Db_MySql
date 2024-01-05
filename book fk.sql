@@ -179,6 +179,9 @@ create table student(
 	alter table student add s_major varchar(30);
 -- 컬럼 이름 변경
 	alter table student change s_mobile s_phone varchar(30);
+-- 컬럼 삭제
+	alter table student drop s_major;
+
 
 
 

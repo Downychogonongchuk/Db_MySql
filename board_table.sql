@@ -9,6 +9,7 @@ create table member_table(
 insert into member_table (member_email, member_name, member_password) values ('aa@naver.com','김승경','1234');
 insert into member_table (member_email, member_name, member_password) values ('bb@gmail.com','문설하','1234');
 insert into member_table (member_email, member_name, member_password) values ('cc@oopp','안예슬','1234');
+
 -- 2 이메일 중복체크 
 select member_email from member_table where member_email = 'aa@naver.com';
 -- 3. 로그인
